@@ -1,0 +1,141 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body{
+    background-color: rgb(250, 238, 223);
+}
+
+
+
+/*--navigation bar part */
+nav{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+}
+.navopt{
+    display: flex;
+    color: white;
+    list-style-type: none;
+   
+}
+.logo{
+    height: 45px;
+    width: 50px;
+}
+li{
+    text-align: center;
+}
+li:nth-child(2){
+    font-size: 1.6em;
+    font-family: 'Playpen Sans', cursive;
+}
+.homeabout{
+    border: 20px;
+    padding: 10px;
+    font-size: large;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+/*for song list and middle part*/
+.container{
+    min-height:  75vh;
+    display: flex;
+    height: 60%;
+    width:auto;
+    background-color: black;
+    color:white;
+    margin: 20px auto;
+    width: 60%;
+    background-image: url(' https://wallpapercave.com/wp/wp9947815.jpg');
+   background-size: cover;
+   border-radius: 12px;
+}
+div h1{
+    font-size: 3em;
+    margin: 20px;
+}
+.name{
+    font-size:x-large;
+    padding-left: 20px;
+ 
+}
+.singers{
+    font-size:0.65em;
+    color: rgb(204, 202, 202);
+}
+.songname{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 500px;
+}
+.songname:hover{
+    background-color: grey;
+}
+.cover{
+    height: 45px;
+    width: 45px;
+    padding-left: 22px;
+}
+.time{
+    margin-left: 80px;
+
+}
+.playbtn{
+    height: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
+
+/*for bottom part and play band*/
+.bottom{
+    position: sticky;
+    background-color: black;
+    height:130px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: large;
+}
+.currentsong{
+    margin: 5px;
+}
+.currentsong img{
+    padding-right: 10px;
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+    
+}
+#playstrip{
+    width: 60%;
+}
+.playbtns{
+    height: 40px;
+    color: aliceblue;
+    cursor: pointer;
+}
+#pausebtn{
+    display: none;
+}
+#masterplaybtn{
+    display: inline;
+}
+.btn{
+  
+    background-color: black;
+}

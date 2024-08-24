@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-FeelTheTune</title>
+    <link rel="stylesheet" href="spotifystyle.css">
+
+</head>
+
+<body>
+    <!--navigation bar part -->
+    <nav>
+        <ul class="navopt">
+            <li><img src="data:image/png;base64,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"
+                    alt="brandlogo" class="logo"></li>
+            <li>Spotify</li>
+            <li class="homeabout">Home</li>
+            <li class="homeabout">About Us</li>
+        </ul>
+    </nav>
+    <!--container part for song list-->
+    <div class="container">
+        <div class="songlist">
+            <h1>Up Next...</h1>
+            <div class="songname">
+                <img src="https://media.lyricsmint.com/photos/840/raanjhanaa-1_cover.jpg" class="cover">
+                <span class="name">Tum Tak <br><span class="singers">Ali,KeerthiSagathia&Pooja AV</span> </span>
+                <span class="time">5:13 <button id="playtumtak" class="btn"><img src="play.png" class="playbtn" ></button></span>
+            </div>
+            <div class="songname">
+                <img src="apnacover.jpg"
+                    class="cover">
+                <span class="name">Apna Bana Le <br><span class="singers">Arijit Singh,Sachin-Jigar,Amit</span> </span>
+                <span class="time">3:25 <button id="playApnaBanaLe" class="btn"><img src="play.png" class="playbtn" ></button></span>
+            </div>
+            <div class="songname">
+                <img src="daryacover.jpg" class="cover">
+                <span class="name">Daryaa <br><span class="singers">Amit Trivedi&Shellee|Tapsee</span> </span>
+                <span class="time">5:13 <button id="playDaryaa" class="btn"><img src="play.png" class="playbtn" ></button></span>
+            </div>
+            <div class="songname">
+                <img src="PiyuBole.jpeg" class="cover">
+                <span class="name">Piyu Bole <br><span class="singers">Ali,KeerthiSagathia&Pooja AV</span> </span>
+                <span class="time">5:05 <button id="playPiyu" class="btn"><img src="play.png" class="playbtn" ></button></span>
+            </div>
+            <div class="songname">
+                <img src="MeraYaar.jpeg" class="cover">
+                <span class="name">Mera Yaar <br><span class="singers">Ali,KeerthiSagathia&Pooja AV</span> </span>
+                <span class="time">4:13 <button id="playMera" class="btn"><img src="play.png" class="playbtn" ></button></span>
+            </div>
+        </div>
+    </div>
+    <!--Play band-->
+    <div class="bottom">
+        <div class="currentsong">
+            <img src="https://media.tenor.com/amRwK1jxr0AAAAAj/music.gif" height="50px" width="80px" id="songIcon">
+            Tum Tak|Ali,KeerthiSagathia&Pooja AV
+        </div>
+
+        <input type="range" id="playstrip" min="0" max="100">
+        <div class="playicon">
+            <button class="btn" id="playprev"> <img src="playback.png" alt="Go Back" class="playbtns"></button>
+            <button class="btn" id="pausebtn"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQb4JwTANxx4nIPEN2IQmk8koOLbeGhB9rgw&usqp=CAU"
+                    alt="Go Back" class="playbtns"></button>
+            <button class="btn" id="masterplaybtn"><img src="play.png" alt="Go Back" class="playbtns"></button>
+            <button class="btn" id="playnext">  <img src="planext.png" alt="Go Back" class="playbtns"></button>
+        </div>
+    </div>
+    <script src="spotifyscript.js"></script>
+</body>
+
+</html>
